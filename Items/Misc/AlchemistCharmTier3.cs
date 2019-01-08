@@ -14,9 +14,9 @@ namespace AlchemistNPC.Items.Misc
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Alchemist Charm Tier 3");
-			Tooltip.SetDefault("While this is in your inventory, you have a high chance not to consume potion"
-			+"\nAllows to use potions from Piggy Bank by Quick Buff"
-			+"\nAlchemist, Brewer and Young Brewer are providing discounts");
+			Tooltip.SetDefault("While this is in your inventory, you have a high chance not to consume potions"
+			+"\nAllows you to use potions from Piggy Bank by Quick Buff"
+			+"\nAlchemist, Brewer and Young Brewer will provide discounts");
 			DisplayName.AddTranslation(GameCulture.Russian, "Талисман Алхимика Третьего Уровня");
             Tooltip.AddTranslation(GameCulture.Russian, "Если находится в инвентаре, вы имеет большой шанс не потратить зелье\nПозволяет использовать зелья из Свиньи-Копилки с помощью клавиши Быстрого Баффа\nАлхимик, Зельеварщица и Юный Зельевар предоставляют скидки");
         }
